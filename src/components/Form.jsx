@@ -45,9 +45,10 @@ export default function Form(props) {
         console.log(res);
         console.log(res.data);
       });
+      props.prop.history.push("/analytics");
     }
 
-    props.prop.history.push("/analytics");
+    
   };
 
   return (
